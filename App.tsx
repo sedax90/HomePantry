@@ -10,7 +10,7 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 
 import { GoogleSignin } from '@react-native-google-signin/google-signin';
 import { ProductsListScreen } from './src/screens/ProductsListScreen';
-// import { Camera } from 'react-native-vision-camera';
+import { Camera } from 'react-native-vision-camera';
 
 GoogleSignin.configure({
   webClientId: '385073673756-hor3diuighlrvqlqdd3sail3vcdes3s0.apps.googleusercontent.com',
@@ -33,15 +33,15 @@ export default function App() {
   const [user, setUser] = useState<any>();
 
   useEffect(() => {
-    // requestPermissions();
+    requestPermissions();
 
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
     return subscriber; // unsubscribe on unmount
   }, []);
 
-  // const requestPermissions = async () => {
-  //   const newCameraPermission = await Camera.requestCameraPermission();
-  // }
+  const requestPermissions = async () => {
+    const newCameraPermission = await Camera.requestCameraPermission();
+  }
 
   // Handle user state changes
   const onAuthStateChanged = (user: unknown) => {
