@@ -1,0 +1,17 @@
+[
+    {
+        "ean": "3017624010701",
+        "pantry": "pantry_1",
+        "label": "Nutella"
+    },
+    {
+        "ean": "5449000214911",
+        "pantry": "pantry_1",
+        "label": "Coca Cola"
+    },
+    {
+        "ean": "8000500310427a",
+        "pantry": "pantry_1",
+        "label": "Nutella biscuits"
+    }
+]
