@@ -1,17 +1,50 @@
 [
     {
-        "ean": "3017624010701",
+        "code": "3017624010701",
         "pantry": "pantry_1",
-        "label": "Nutella"
+        "label": "Nutella",
+        "quantity": 2
     },
     {
-        "ean": "5449000214911",
+        "code": "5449000214911",
         "pantry": "pantry_1",
-        "label": "Coca Cola"
+        "label": "Coca Cola",
+        "quantity": 1
     },
     {
-        "ean": "8000500310427a",
+        "code": "8000500310427a",
         "pantry": "pantry_1",
-        "label": "Nutella biscuits"
-    }
+        "label": "Nutella biscuits",
+        "quantity": 4
+    },
+    {
+        "code": "3168930010265",
+        "pantry": "pantry_1",
+        "label": "Cruesli Mélange De Noix - Quaker - 450 g",
+        "quantity": 0
+    },
+    {
+        "code": "8002270014901",
+        "pantry": "pantry_1",
+        "label": "S. Pellegrino Water - San Pellegrino - 1 L",
+        "quantity": 10
+    },
+    {
+        "code": "8076809513753",
+        "pantry": "pantry_1",
+        "label": "Pesto alla Genovese - Barilla - 190 g e",
+        "quantity": 0
+    },
+    {
+        "code": "5411188112709",
+        "pantry": "pantry_1",
+        "label": "Almonddrink - Alpro - 1l",
+        "quantity": 0
+    },
+    {
+        "code": "8712100871986",
+        "pantry": "pantry_1",
+        "label": "L'Originale Moutarde Fine De Dijon - Maille - 350 ml",
+        "quantity": 0
+    },
 ]

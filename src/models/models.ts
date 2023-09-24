@@ -10,7 +10,12 @@ export interface Pantry {
 }
 
 export interface Product {
-    ean: string;
+    code: string;
     pantry: string;
     label: string;
+    quantity: number;
+}
+
+export interface ProductProps {
+    [name: string]: any;
 }
